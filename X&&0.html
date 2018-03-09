@@ -17,6 +17,8 @@
 
                  <script>
 
+                        var player = "x";
+
                         function schimbaImaginea (imagine, e){
 
                         	var winner= document.getElementById ("winner");
@@ -34,16 +36,23 @@
                         	if (imagine.src !== "http://static.wixstatic.com/media/b77fe464cfc445da9003a5383a3e1acf.jpg") {
 
                         	}else if (player === "x"){
-                        		imagine.src="x.jpg";
+                        		imagine.src="http://www.drodd.com/images14/x12.jpg";
                         		player="0";
                         	}else if (player === "0"){
-                        		imagine.src="0.jpg";
+                        		imagine.src="https://image.freepik.com/free-photo/red-number-zero_1232-677.jpg";
                         		player="x";
                         	}
 
                             
                         	
-                           if (A1.src==="http://www.drodd.com/images14/x12.jpg" && A2.src==="http://www.drodd.com/images14/x12.jpg" && A3.src==="http://www.drodd.com/images14/x12.jpg" || B1.src==="http://www.drodd.com/images14/x12.jpg" && B2.src==="http://www.drodd.com/images14/x12.jpg" && B3.src==="http://www.drodd.com/images14/x12.jpg" || C1.src==="http://www.drodd.com/images14/x12.jpg" && C2.src==="http://www.drodd.com/images14/x12.jpg" && C3.src==="http://www.drodd.com/images14/x12.jpg" || A1.src==="http://www.drodd.com/images14/x12.jpg" && B1.src==="http://www.drodd.com/images14/x12.jpg" && C1.src==="http://www.drodd.com/images14/x12.jpg" || A2.src==="http://www.drodd.com/images14/x12.jpg" && B2.src==="http://www.drodd.com/images14/x12.jpg" && C2.src==="http://www.drodd.com/images14/x12.jpg" || A3.src==="http://www.drodd.com/images14/x12.jpg" && B3.src==="http://www.drodd.com/images14/x12.jpg" && C3.src==="http://www.drodd.com/images14/x12.jpg" || A1.src==="http://www.drodd.com/images14/x12.jpg" && B2.src==="http://www.drodd.com/images14/x12.jpg" && C3.src==="http://www.drodd.com/images14/x12.jpg" || A3.src==="http://www.drodd.com/images14/x12.jpg" && B2.src==="http://www.drodd.com/images14/x12.jpg" && C1.src==="http://www.drodd.com/images14/x12.jpg") {
+                           if ((A1.src==="http://www.drodd.com/images14/x12.jpg" && A2.src==="http://www.drodd.com/images14/x12.jpg" && A3.src==="http://www.drodd.com/images14/x12.jpg") ||
+                              (B1.src==="http://www.drodd.com/images14/x12.jpg" && B2.src==="http://www.drodd.com/images14/x12.jpg" && B3.src==="http://www.drodd.com/images14/x12.jpg") ||
+                               (C1.src==="http://www.drodd.com/images14/x12.jpg" && C2.src==="http://www.drodd.com/images14/x12.jpg" && C3.src==="http://www.drodd.com/images14/x12.jpg") ||
+                                (A1.src==="http://www.drodd.com/images14/x12.jpg" && B1.src==="http://www.drodd.com/images14/x12.jpg" && C1.src==="http://www.drodd.com/images14/x12.jpg") ||
+                                 (A2.src==="http://www.drodd.com/images14/x12.jpg" && B2.src==="http://www.drodd.com/images14/x12.jpg" && C2.src==="http://www.drodd.com/images14/x12.jpg") ||
+                                  (A3.src==="http://www.drodd.com/images14/x12.jpg" && B3.src==="http://www.drodd.com/images14/x12.jpg" && C3.src==="http://www.drodd.com/images14/x12.jpg") ||
+                                   (A1.src==="http://www.drodd.com/images14/x12.jpg" && B2.src==="http://www.drodd.com/images14/x12.jpg" && C3.src==="http://www.drodd.com/images14/x12.jpg") ||
+                                    (A3.src==="http://www.drodd.com/images14/x12.jpg" && B2.src==="http://www.drodd.com/images14/x12.jpg" && C1.src==="http://www.drodd.com/images14/x12.jpg")) {
 
 
 
@@ -51,15 +60,18 @@
                            	winner.style.fontSize="150px";
                                 
 
-                       }}
-
-                      /* 
-
-                       		if (A1.src==="https://image.freepik.com/free-photo/red-number-zero_1232-677.jpg" && A2.src==="https://image.freepik.com/free-photo/red-number-zero_1232-677.jpg" && A3.src==="https://image.freepik.com/free-photo/red-number-zero_1232-677.jpg" || B1.src==="https://image.freepik.com/free-photo/red-number-zero_1232-677.jpg" && B2.src==="https://image.freepik.com/free-photo/red-number-zero_1232-677.jpg" && B3.src==="https://image.freepik.com/free-photo/red-number-zero_1232-677.jpg" || C1.src==="https://image.freepik.com/free-photo/red-number-zero_1232-677.jpg" && C2.src==="https://image.freepik.com/free-photo/red-number-zero_1232-677.jpg" && C3.src==="https://image.freepik.com/free-photo/red-number-zero_1232-677.jpg" || A1.src==="https://image.freepik.com/free-photo/red-number-zero_1232-677.jpg" && B1.src==="https://image.freepik.com/free-photo/red-number-zero_1232-677.jpg" && C1.src==="https://image.freepik.com/free-photo/red-number-zero_1232-677.jpg" || A2.src==="https://image.freepik.com/free-photo/red-number-zero_1232-677.jpg" && B2.src==="https://image.freepik.com/free-photo/red-number-zero_1232-677.jpg" && C2.src==="https://image.freepik.com/free-photo/red-number-zero_1232-677.jpg" || A3.src==="https://image.freepik.com/free-photo/red-number-zero_1232-677.jpg" && B3.src==="https://image.freepik.com/free-photo/red-number-zero_1232-677.jpg" && C3.src==="https://image.freepik.com/free-photo/red-number-zero_1232-677.jpg" || A1.src==="https://image.freepik.com/free-photo/red-number-zero_1232-677.jpg" && B2.src==="https://image.freepik.com/free-photo/red-number-zero_1232-677.jpg" && C3.src==="https://image.freepik.com/free-photo/red-number-zero_1232-677.jpg" || A3.src==="https://image.freepik.com/free-photo/red-number-zero_1232-677.jpg" && B2.src==="https://image.freepik.com/free-photo/red-number-zero_1232-677.jpg" && C1.src==="https://image.freepik.com/free-photo/red-number-zero_1232-677.jpg") {
+                       } else if ((A1.src==="https://image.freepik.com/free-photo/red-number-zero_1232-677.jpg" && A2.src==="https://image.freepik.com/free-photo/red-number-zero_1232-677.jpg" && A3.src==="https://image.freepik.com/free-photo/red-number-zero_1232-677.jpg") ||
+                        (B1.src==="https://image.freepik.com/free-photo/red-number-zero_1232-677.jpg" && B2.src==="https://image.freepik.com/free-photo/red-number-zero_1232-677.jpg" && B3.src==="https://image.freepik.com/free-photo/red-number-zero_1232-677.jpg") ||
+                         (C1.src==="https://image.freepik.com/free-photo/red-number-zero_1232-677.jpg" && C2.src==="https://image.freepik.com/free-photo/red-number-zero_1232-677.jpg" && C3.src==="https://image.freepik.com/free-photo/red-number-zero_1232-677.jpg") ||
+                          (A1.src==="https://image.freepik.com/free-photo/red-number-zero_1232-677.jpg" && B1.src==="https://image.freepik.com/free-photo/red-number-zero_1232-677.jpg" && C1.src==="https://image.freepik.com/free-photo/red-number-zero_1232-677.jpg") ||
+                           (A2.src==="https://image.freepik.com/free-photo/red-number-zero_1232-677.jpg" && B2.src==="https://image.freepik.com/free-photo/red-number-zero_1232-677.jpg" && C2.src==="https://image.freepik.com/free-photo/red-number-zero_1232-677.jpg") ||
+                            (A3.src==="https://image.freepik.com/free-photo/red-number-zero_1232-677.jpg" && B3.src==="https://image.freepik.com/free-photo/red-number-zero_1232-677.jpg" && C3.src==="https://image.freepik.com/free-photo/red-number-zero_1232-677.jpg") ||
+                             (A1.src==="https://image.freepik.com/free-photo/red-number-zero_1232-677.jpg" && B2.src==="https://image.freepik.com/free-photo/red-number-zero_1232-677.jpg" && C3.src==="https://image.freepik.com/free-photo/red-number-zero_1232-677.jpg") ||
+                              (A3.src==="https://image.freepik.com/free-photo/red-number-zero_1232-677.jpg" && B2.src==="https://image.freepik.com/free-photo/red-number-zero_1232-677.jpg" && C1.src==="https://image.freepik.com/free-photo/red-number-zero_1232-677.jpg")) {
 
                            	winner.innerHTML="'0' a castigat";
                            	winner.style.fontSize="150px"; 
-                       }}*/
+                       }}
 
                  </script>
                 
